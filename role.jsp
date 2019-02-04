@@ -35,6 +35,7 @@ div {
   </style>
 
 <script src="js/role.js"></script>
+<script src="js/profile.js"></script>
 </head>
 <body>
 <center>
@@ -49,7 +50,12 @@ div {
           <td>Roles</td>
         </tr>
         <tr>
-          <td width="50%" id="_tdprofile">
+        
+          <td width="50%" id="profiles">
+            
+          </td>
+        
+          <!-- <td width="50%" id="profiles">
             <div><span class="glyphicon glyphicon-chevron-down" data-toggle="collapse" href="#profile1roles"></span>Profile1
                 <ul id="profile1roles" class="collapse sortableList">
                     <li class="ui-state-default">Role 1</li>
@@ -68,9 +74,9 @@ div {
                     <li class="ui-state-default">Role 5</li>
                 </ul>
             </div>
-          </td>
+          </td> -->
 
-          <td width="50%" id="_tdprofile">
+          <td width="50%" id="_tdrole">
             <div>Select Roles
                 <ul id="roles">
                     <!-- <li class="draggable" class="ui-state-highlight">Drag me 1</li> -->
